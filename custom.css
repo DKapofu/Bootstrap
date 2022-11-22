@@ -1,0 +1,136 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+.bil{height: 100vh;
+    width: 100%;
+    background-image: url(/img/zebrabanner.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 150px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  }
+ul{
+  float: right;
+  padding-right: 0px;
+  padding-left: 800px;
+}
+li{
+  display: inline-block;
+  list-style: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 12px;
+ 
+}
+.hr{
+  background-color:white;
+}
+.display-1{
+  text-align: center;
+  padding-top: 210px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #FFFFFF;
+}
+.icons{ padding-right: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.ourStory{
+  margin: 140px;
+}
+.ourStory.col-md-5{
+  padding-top: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.enquire{
+  background-color:  #E75317;;
+  color: white;
+  padding: 10px;
+}
+.ourStory.col-md-4{
+  padding-top: 190px;
+}
+.col-md-3{
+  padding-top: 40px;
+}
+.nyama{
+  font-size: 15px;
+}
+.activities{
+  padding-top: 0px;
+}
+.activities.col-md-4{
+  background-image: url(/img/Rectangle\ 53.png);
+  width: 30%;
+  object-fit: cover;
+  padding-top: 80px;
+}
+.game{
+  color: #f3f3f3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.walk{
+  background-image: url(/img/Rectangle\ 16.png);
+  width: 20%;
+  object-fit: cover;
+  padding-top: 80px;
+}
+.watch{
+  background-image: url(/img/Rectangle\ 18.png);
+  width: 20%;
+  object-fit: cover;
+  padding-top: 80px;
+}
+.canoe{
+  background-image: url(/img/Rectangle\ 54.png);
+  width: 20%;
+  object-fit: cover;
+  padding-top: 80px;
+}
+.fish{
+  background-image: url(/img/Rectangle\ 20.png);
+  width: 20%;
+  object-fit: cover;
+  padding-top: 80px;
+}
+.col-md-7{
+  display: flex;
+  flex-direction: row;
+}
+.recent.col-md-5{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.all{
+  display: flex;
+  flex-direction: column;
+}
+.gallery{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.footer{
+  display: flex;
+}
